@@ -66,4 +66,9 @@ We assume that you have `git` and `virtualenv` installed.
          }
     }
     
+    
+    ## to unit test:
+    
+    Run test_analytics.py
+    e.g .\Suade\suadeanalytics\Python test_analytics.py
  
