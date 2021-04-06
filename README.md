@@ -7,14 +7,18 @@ We assume that you have `git` and `virtualenv` installed.
 
     # Create a working directory in your local environment:
     e.g.
-    mkdir Suade\Analytics 
+    mkdir Suade
     
-    # Chnage to working directory:
+    # Change to working directory:
     e.g 
-    cd Suade\Analytics 
+    cd Suade
     
     # Clone this repo: 
     git clone https://github.com/sharmalondon16/suadeanalytics.git
+    
+    # Change to code directory:
+    e.g 
+    cd Suade\suadeanalytics
     
     # Create the virtual environment within your working directory (suggested)
     e.g
@@ -22,27 +26,45 @@ We assume that you have `git` and `virtualenv` installed.
         
         #Activate the virtual environment:
            e.g
-           Suade\Analytics\env\Scripts\activate.bat
+           Suade\suadeanalytics\env\Scripts\activate.bat
     
     # Install dependencies with pip: 
-    .\Suade\Analytics\pip install -r requirements.txt
+    .\Suade\suadeanalytics\pip install -r requirements.txt
     
     # Create an environment variable to run main.py:
     e.g
-    .\Suade\Analytics\set FLASK_APP=main.py
+    .\Suade\suadeanalytics\set FLASK_APP=main.py
     
     # Open code environment
     e.g (visual studio)
-    .\Suade\Analytics\code .
+    .\Suade\suadeanalytics\code .
     
     
     # Start Web Server:
     e.g
-    .\Suade\Analytics\flas krun
+    .\Suade\suadeanalytics\flask run
     
         # Test
         Open a browser and go to URL
         http://<IP>:5000                            => Welcome
-        http://<IP>:5000/2019-08-01                 => I am good, how about you?
+        http://<IP>:5000/2019-08-01                 =>   example output
+        {
+         "customers": 877,
+         "total_discount_amount": 23207660.62,
+         "items": 291544,
+         "order_total_avg": 14857290.47,
+         "discount_rate_avg": 0.15,
+         "commissions": {
+            "promotions": {
+                "1": 30789016.52,
+                "3": 8054710.81,
+                "2": 20082936.33,
+                "5": 22946449.12,
+                "4": 27573451.86
+                },
+            "total": 2532657169.95,
+            "order_average": 2743940.59
+         }
+    }
     
  
