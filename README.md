@@ -18,11 +18,11 @@ We assume that you have `git` and `virtualenv` installed.
     
     # Change to code directory:
     e.g 
-    cd Suade\suadeanalytics
+    cd suadeanalytics
     
     # Create the virtual environment within your working directory (suggested)
     e.g
-    .\Suade\Analytics\Python -m venv env
+    .\Suade\suadeanalytics\Python -m venv env
         
         #Activate the virtual environment:
            e.g
@@ -35,10 +35,9 @@ We assume that you have `git` and `virtualenv` installed.
     e.g
     .\Suade\suadeanalytics\set FLASK_APP=main.py
     
-    # Open code environment
-    e.g (visual studio)
-    .\Suade\suadeanalytics\code .
-    
+            # Open code environment (optional)
+            e.g (visual studio)
+            .\Suade\suadeanalytics\code .
     
     # Start Web Server:
     e.g
