@@ -9,6 +9,10 @@ We assume that you have `git` and `virtualenv` installed.
     e.g.
     mkdir Suade\Analytics 
     
+    # Chnage to working directory:
+    e.g 
+    cd Suade\Analytics 
+    
     # Clone this repo: 
     git clone https://github.com/sharmalondon16/suadeanalytics.git
     
